@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Fernández - Desarrollador Full Stack Python & Maker</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav id="top-nav">
+    <div class="nav-container">
+        <button class="logo-btn" onclick="scrollToSection('hero')">FF</button>
+
+        <div class="nav-links">
+            <button onclick="scrollToSection('about')" class="nav-link">
+                <span class="nav-number">01.</span> Sobre mí
+            </button>
+            <button onclick="scrollToSection('projects')" class="nav-link">
+                <span class="nav-number">02.</span> Proyectos
+            </button>
+            <button onclick="scrollToSection('experience')" class="nav-link">
+                <span class="nav-number">03.</span> Experiencia
+            </button>
+            <button onclick="scrollToSection('contact')" class="nav-link">
+                <span class="nav-number">04.</span> Contacto
+            </button>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section id="hero" class="hero-section">
+    <div class="hero-container">
+        <div class="hero-grid">
+
+            <!-- Imagen -->
+            <div class="hero-image">
+                <img src="assets/img/hero-escritorio.png"
+                     alt="Escritorio de desarrollo con código y luz cálida">
+            </div>
+
+            <!-- Texto -->
+            <div class="hero-content">
+                <div class="hero-badge">Desarrollador Full Stack Python & Maker</div>
+
+                <h1 class="hero-title">
+                    Creo <span class="gradient-text interactive">soluciones</span><br>
+                    digitales, motivado por el aprendizaje continuo y <span class="gradient-text code"> la evolución tecnológica.</span>
+                </h1>
+
+                </p>
+
+                <p class="hero-description">
+                    Soy Francis Fernández, desarrollador Full Stack Python en formación, con experiencia práctica en Django y bases de datos relacionales.
+Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma activa, buscando soluciones funcionales y aprendiendo en cada iteración.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('projects')">Ver proyectos</button>
+                    <button class="btn-secondary" onclick="scrollToSection('contact')">Contáctame</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="content-wrapper">
+
+<!-- ================= SOBRE MI ================= -->
+<section id="about" class="section">
+    <div class="section-content">
+        <h2 class="section-title">
+            <span class="section-number">01.</span> Sobre mí
+            <div class="section-line"></div>
+        </h2>
+
+        <div class="about-grid">
+
+            <!-- Texto -->
+            <div class="about-text">
+                <p>
+                 Soy desarrollador <strong>Full Stack Python</strong>, formado a través del programa Talento Digital bootcamps
+                técnicos, enfocado en el desarrollo de aplicaciones web utilizando <strong>Django</strong>.
+                </p>
+
+                <p>
+                     Mi perfil se caracteriza por una <strong>mentalidad práctica</strong>, influenciada por la cultura maker.
+    Aprendo construyendo y probando soluciones, integrando software con prototipos físicos cuando el proyecto
+    lo requiere.
+                </p>
+
+                <p>
+                    Disfruto trabajar en equipo, enfrentar desafíos reales y mejorar continuamente mis habilidades técnicas
+    y de <strong>resolución de problemas</strong> a través de proyectos concretos.
+</p>
+                </p>
+
+                <div class="skills-section">
+                    <p>Tecnologías con las que trabajo:</p>
+                    <ul class="skills-grid">
+                        <li>▹ Python</li>
+                        <li>▹ Django</li>
+                        <li>▹ HTML & CSS</li>
+                        <li>▹ JavaScript</li>
+                        <li>▹ PostgreSQL</li>
+                        <li>▹ Git & GitHub</li>
+                        <li>▹ Arduino</li>
+                        <li>▹ Impresión 3D</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Avatar -->
+            <div class="about-avatar">
+                <img src="assets/img/avatar.png" alt="Avatar de Francis Fernández">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROYECTOS ================= -->
+<section id="projects" class="section">
+    <div class="section-content-full">
+        <h2 class="section-title">
+            <span class="section-number">02.</span> Proyectos
+            <div class="section-line"></div>
+        </h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Gestor de Tareas</h3>
+                <p>Aplicación web CRUD con autenticación y PostgreSQL.</p>
+                <ul class="project-tech">
+                    <li>Django</li>
+                    <li>Python</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Biblioteca Educativa de Modelos 3D</h3>
+                <p>Plataforma para gestión de modelos 3D educativos.</p>
+                <ul class="project-tech">
+                    <li>Django</li>
+                    <li>Python</li>
+                    <li>Impresión 3D</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h3>Panel de Control Arduino</h3>
+                <p>Interfaz para control y monitoreo de proyectos Arduino.</p>
+                <ul class="project-tech">
+                    <li>Python</li>
+                    <li>Arduino</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= EXPERIENCIA ================= -->
+<section id="experience" class="section">
+    <div class="section-content">
+        <h2 class="section-title">
+            <span class="section-number">03.</span> Experiencia y formación
+            <div class="section-line"></div>
+        </h2>
+
+        <ul class="experience-list">
+            <li>▹ Bootcamp Full Stack Python & Django</li>
+            <li>▹ Desarrollo de aplicaciones web</li>
+            <li>▹ Proyectos maker con Arduino e impresión 3D</li>
+            <li>▹ Trabajo colaborativo con Git</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contact" class="section">
+    <div class="contact-content">
+        <h2 class="section-title center">
+            <span class="section-number">04.</span> Contacto
+        </h2>
+
+        <p class="contact-text">
+            Estoy abierto a nuevas oportunidades y colaboraciones.
+            Si quieres conversar o trabajar juntos, escríbeme.
+        </p>
+
+        <a href="mailto:francis@email.com" class="btn-contact">Escríbeme</a>
+
+        <footer class="footer">
+            Diseñado y desarrollado por Francis Fernández
+        </footer>
+    </div>
+</section>
+
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
