@@ -17,21 +17,21 @@
 <!-- ================= NAV ================= -->
 <nav id="top-nav">
     <div class="nav-container">
-        <button class="logo-btn" onclick="scrollToSection('hero')">FF</button>
+        <a href="#hero" class="logo-btn">FF</a>
 
         <div class="nav-links">
-            <button onclick="scrollToSection('about')" class="nav-link">
+            <a href="#about" class="nav-link">
                 <span class="nav-number">01.</span> Sobre mí
-            </button>
-            <button onclick="scrollToSection('projects')" class="nav-link">
+            </a>
+            <a href="#projects" class="nav-link">
                 <span class="nav-number">02.</span> Proyectos
-            </button>
-            <button onclick="scrollToSection('experience')" class="nav-link">
+            </a>
+            <a href="#experience" class="nav-link">
                 <span class="nav-number">03.</span> Experiencia
-            </button>
-            <button onclick="scrollToSection('contact')" class="nav-link">
+            </a>
+            <a href="#contact" class="nav-link">
                 <span class="nav-number">04.</span> Contacto
-            </button>
+            </a>
         </div>
     </div>
 </nav>
@@ -58,16 +58,14 @@
                     digitales, motivado por el aprendizaje continuo y <span class="gradient-text code"> la evolución tecnológica.</span>
                 </h1>
 
-                </p>
-
                 <p class="hero-description">
-                    Soy Francis Fernández, desarrollador Full Stack Python en formación, con experiencia práctica en Django y bases de datos relacionales.
-Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma activa, buscando soluciones funcionales y aprendiendo en cada iteración.
+                    Soy Francis Fernández, desarrollador Full Stack Python con experiencia práctica en Django y bases de datos relacionales.
+                    Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma activa, buscando soluciones funcionales y aprendiendo en cada iteración.
                 </p>
 
                 <div class="hero-buttons">
-                    <button class="btn-primary" onclick="scrollToSection('projects')">Ver proyectos</button>
-                    <button class="btn-secondary" onclick="scrollToSection('contact')">Contáctame</button>
+                    <a href="#projects" class="btn-primary">Ver proyectos</a>
+                    <a href="#contact" class="btn-secondary">Contáctame</a>
                 </div>
             </div>
 
@@ -90,20 +88,18 @@ Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma
             <!-- Texto -->
             <div class="about-text">
                 <p>
-                 Soy desarrollador <strong>Full Stack Python</strong>, formado a través del programa Talento Digital bootcamps
-                técnicos, enfocado en el desarrollo de aplicaciones web utilizando <strong>Django</strong>.
+                    Soy desarrollador <strong>Full Stack Python</strong>, formado a través del programa Talento Digital bootcamps
+                    técnicos, enfocado en el desarrollo de aplicaciones web utilizando <strong>Django</strong>.
                 </p>
 
                 <p>
-                     Mi perfil se caracteriza por una <strong>mentalidad práctica</strong>, influenciada por la cultura maker.
-    Aprendo construyendo y probando soluciones, integrando software con prototipos físicos cuando el proyecto
-    lo requiere.
+                    Mi perfil se caracteriza por una <strong>mentalidad práctica</strong>, influenciada por la cultura maker.
+                    Aprendo construyendo y probando soluciones, integrando software con prototipos físicos cuando el proyecto lo requiere.
                 </p>
 
                 <p>
                     Disfruto trabajar en equipo, enfrentar desafíos reales y mejorar continuamente mis habilidades técnicas
-    y de <strong>resolución de problemas</strong> a través de proyectos concretos.
-</p>
+                    y de <strong>resolución de problemas</strong> a través de proyectos concretos.
                 </p>
 
                 <div class="skills-section">
@@ -151,7 +147,7 @@ Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma
                     <li>Impresión 3D</li>
                 </ul>
 
-                <a href="https://github.com/TU-USUARIO/biblioteca-modelos-3d"
+                <a href="https://makerlabchile.onrender.com/"
                    class="btn-project"
                    target="_blank"
                    rel="noopener">
@@ -170,11 +166,11 @@ Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma
                     <li>PostgreSQL</li>
                 </ul>
 
-                <a href="https://github.com/TU-USUARIO/gestor-tareas-django"
+                <a href="https://github.com/FrancisFernandez-dev/gestor_tareas"
                    class="btn-project"
                    target="_blank"
                    rel="noopener">
-                    Ver repositorio
+                    Ver proyecto
                 </a>
             </div>
 
@@ -189,7 +185,7 @@ Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma
                     <li>JavaScript</li>
                 </ul>
 
-                <a href="https://github.com/TU-USUARIO/panel-control-arduino"
+                <a href="https://github.com/FrancisFernandez-dev/brazo_robot"
                    class="btn-project"
                    target="_blank"
                    rel="noopener">
@@ -227,10 +223,15 @@ Mi interés por crear y experimentar me lleva a enfrentar los problemas de forma
 
         <p class="contact-text">
             Estoy abierto a nuevas oportunidades y colaboraciones.
-            Si quieres conversar o trabajar juntos, escríbeme.
+            Si quieres conversar o trabajar juntos, escríbeme a : Fra.ferley@gmail.com.
         </p>
 
-        <a href="mailto:francis@email.com" class="btn-contact">Escríbeme</a>
+        <a href="mailto:fra.ferley@gmail.com
+                ?subject=Contacto%20desde%20Portafolio
+                &body=Hola%20Francis,%0D%0A%0D%0AMe%20gustaría%20contactarte%20por..."
+                class="btn-contact">
+                Escríbeme
+                </a>
 
         <footer class="footer">
             Diseñado y desarrollado por Francis Fernández
